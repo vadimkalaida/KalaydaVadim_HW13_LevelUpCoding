@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KalaydaVadim_HW13_LevelUpCoding</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+  <div class="login-block">
+    <div class="login-block__top"></div>
+    <div class="login-block__bottom">
+      <form method="post" class="login-form">
+        <div class="login-form__container">
+          <div class="login-form-line1">
+            <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+            <input class="login-form-line-input1" id="username" type="text" pattern="[a-z0-9]+$" name="username" placeholder="USERNAME..." required>
+          </div>
+          <div class="login-form-line2">
+            <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+            <input class="login-form-line-input2" id="password" type="password" pattern="[A-Za-z]+$" name="password" placeholder="PASSWORD..." required>
+          </div>
+          <div class="login-form-line3">
+            <label for="input-save" class="login-form-line3-label">
+              <input id="input-save" type="checkbox" name="save">
+              запомнить
+            </label>
+            <button class="input-submit" type="submit">войти</button>
+          </div>
+          <p class="bottom-links"><a href="#">Забыл пароль</a>|<a href="#">Регистраиция</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<script src="index.js"></script>
+</body>
+</html>
